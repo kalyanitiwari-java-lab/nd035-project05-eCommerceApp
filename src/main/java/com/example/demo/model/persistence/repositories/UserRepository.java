@@ -1,9 +1,9 @@
 package com.example.demo.model.persistence.repositories;
 
+import com.example.demo.model.persistence.ApplicationUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.model.persistence.User;
 
-public interface UserRepository extends JpaRepository<User, Long> {
-	User findByUsername(String username);
+public interface UserRepository extends JpaRepository<ApplicationUser, Long> {
+	ApplicationUser findByUsername(String username);
 }

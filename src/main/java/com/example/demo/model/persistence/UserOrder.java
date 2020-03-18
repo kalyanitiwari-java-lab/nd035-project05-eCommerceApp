@@ -11,7 +11,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
@@ -36,7 +35,7 @@ public class UserOrder {
 	@ManyToOne
 	@JoinColumn(name="user_id", nullable = false, referencedColumnName = "id")
 	@JsonProperty
-    private User user;
+    private ApplicationUser applicationUser;
 	
 	@JsonProperty
 	@Column
@@ -58,12 +57,12 @@ public class UserOrder {
 		this.items = items;
 	}
 
-	public User getUser() {
-		return user;
+	public ApplicationUser getApplicationUser() {
+		return applicationUser;
 	}
 
-	public void setUser(User user) {
-		this.user = user;
+	public void setApplicationUser(ApplicationUser applicationUser) {
+		this.applicationUser = applicationUser;
 	}
 	
 	public BigDecimal getTotal() {
@@ -78,7 +77,7 @@ public class UserOrder {
 		UserOrder order = new UserOrder();
 		order.setItems(cart.getItems().stream().collect(Collectors.toList()));
 		order.setTotal(cart.getTotal());
-		order.setUser(cart.getUser());
+		order.setApplicationUser(cart.getApplicationUser());
 		return order;
 	}
 	

@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
 @Entity
 @Table(name = "user")
-public class User {
+public class ApplicationUser {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

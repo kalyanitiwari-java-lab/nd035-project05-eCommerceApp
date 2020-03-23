@@ -11,6 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 
+import java.util.Optional;
+
 import static org.junit.Assert.assertEquals;
 import static  org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.mock;
@@ -32,7 +34,9 @@ public class UserControllerTests {
         TestUtils.injectObjects(userController, "userRepository", userRepo);
         TestUtils.injectObjects(userController, "cartRepository", cartRepo);
         TestUtils.injectObjects(userController, "bCryptPasswordEncoder", encoder);
+
     }
+
 
     //sanity test
     @Test
@@ -56,7 +60,26 @@ public class UserControllerTests {
         assertEquals("thisIsHashed", user.getPassword());
     }
 
-    //
+    //sanity test
+    @Test
+    public void get_username_happy_path(){
+        CreateUserRequest request = new CreateUserRequest();
+
+        request.setUsername("testUser");
+        request.setPassword("testPassword");
+        request.setConfirmPassword("testPassword");
+
+        ResponseEntity<ApplicationUser> response1 =  userController.createUser(request);
+
+        ApplicationUser testUser = response1.getBody();
 
 
+        when(userRepo.findByUsername("testUser")).thenReturn(testUser);
+        String username = "testUser";
+        ResponseEntity<ApplicationUser> response2 = userController.findByUserName(username);
+        assertNotNull(response2);
+        ApplicationUser user = response2.getBody();
+        assertNotNull(user);
+        assertEquals(testUser, user);
+    }
 }

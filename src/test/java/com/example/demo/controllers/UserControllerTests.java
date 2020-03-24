@@ -60,7 +60,7 @@ public class UserControllerTests {
         assertEquals("thisIsHashed", user.getPassword());
     }
 
-    //sanity test
+    //negative test
     @Test
     public void create_user_error_path(){
         when(encoder.encode("testPassword")).thenReturn("thisIsHashed");

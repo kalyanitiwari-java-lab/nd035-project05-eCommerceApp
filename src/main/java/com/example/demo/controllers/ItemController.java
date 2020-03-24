@@ -15,7 +15,6 @@ import com.example.demo.model.persistence.repositories.ItemRepository;
 @RestController
 @RequestMapping("/api/item")
 public class ItemController {
-
 	@Autowired
 	private ItemRepository itemRepository;
 	
@@ -36,5 +35,4 @@ public class ItemController {
 				: ResponseEntity.ok(items);
 			
 	}
-	
 }

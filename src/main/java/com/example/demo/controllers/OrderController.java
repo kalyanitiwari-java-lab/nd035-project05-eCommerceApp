@@ -26,7 +26,7 @@ public class OrderController {
 	@Autowired
 	private OrderRepository orderRepository;
 
-	private static final Logger log = LoggerFactory.getLogger(UserController.class);
+	private static final Logger log = LoggerFactory.getLogger(OrderController.class);
 	
 	@PostMapping("/submit/{username}")
 	public ResponseEntity<UserOrder> submit(@PathVariable String username) {

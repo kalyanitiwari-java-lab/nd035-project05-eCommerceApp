@@ -54,44 +54,37 @@ public class CartControllerTests {
 
        when(itemRepo.findById(request.getItemId())).thenReturn(Optional.of(getItem()));
 
-        Cart modifiedCart = getUserCart(request.getItemId(), request.getQuantity());
-        when(cartRepo.save(modifiedCart)).thenReturn(user.getCart());
-
         ResponseEntity<Cart> response = cartController.addTocart(request);
 
         Cart savedCart = response.getBody();
         assertNotNull(response);
-        assertEquals(modifiedCart.getTotal(), savedCart.getTotal());
+        assertEquals(5, savedCart.getItems().size());
     }
 
-    //negative test case
-    @Test
-    public void add_to_cart_error_flow(){
-        //Add dirty cart
-        Cart dirtyCart = getUserCart((long)0, 3);
 
+    //sanity test
+    @Test
+    public void remove_from_cart_happy_path(){
         //Save a user
         ApplicationUser user = createUser();
-        //User has a dirty cart
-        user.setCart(dirtyCart);
         when(userRepo.findByUsername("cartUser")).thenReturn(user);
+
+        user.setCart(getUserCart((long)0, 5));
 
         //Modify cart
         ModifyCartRequest request = new ModifyCartRequest();
         request.setUsername(user.getUsername());
         request.setItemId(0);
-        request.setQuantity(5);
+        request.setQuantity(2);
 
         when(itemRepo.findById(request.getItemId())).thenReturn(Optional.of(getItem()));
 
-        Cart modifiedCart = getUserCart(request.getItemId(), request.getQuantity());
-        when(cartRepo.save(modifiedCart)).thenReturn(user.getCart());
-
-        ResponseEntity<Cart> response = cartController.addTocart(request);
+        ResponseEntity<Cart> response = cartController.removeFromcart(request);
 
         Cart savedCart = response.getBody();
         assertNotNull(response);
-        assertNotEquals(modifiedCart.getTotal(), savedCart.getTotal());
+        assertEquals(3, savedCart.getItems().size());
+
     }
 
     private ApplicationUser createUser(){

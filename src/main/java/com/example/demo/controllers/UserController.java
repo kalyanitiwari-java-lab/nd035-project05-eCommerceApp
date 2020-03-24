@@ -54,7 +54,7 @@ public class UserController {
 		System.out.println("Creating user {}: " + createUserRequest.getUsername());
 		ApplicationUser user = new ApplicationUser();
 		user.setUsername(createUserRequest.getUsername());
-		log.info("User name set with ", createUserRequest.getUsername());
+		log.info("User name set with: " + user.getUsername());
 		Cart cart = new Cart();
 		cartRepository.save(cart);
 		user.setCart(cart);

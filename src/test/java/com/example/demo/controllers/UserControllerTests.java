@@ -62,6 +62,26 @@ public class UserControllerTests {
 
     //sanity test
     @Test
+    public void create_user_error_path(){
+        when(encoder.encode("testPassword")).thenReturn("thisIsHashed");
+        CreateUserRequest request = new CreateUserRequest();
+
+        request.setUsername("testUser");
+        request.setPassword("testPassword");
+        //request.setConfirmPassword("testPassword");
+
+        ResponseEntity<ApplicationUser> response =  userController.createUser(request);
+
+        assertNotNull(response);
+        assertEquals(400, response.getStatusCodeValue());
+
+    }
+
+
+
+
+    //sanity test
+    @Test
     public void get_username_happy_path(){
         CreateUserRequest request = new CreateUserRequest();
 

@@ -1,0 +1,1010 @@
+03-25@12:55:36 INFO  (RepositoryConfigurationDelegate.java:126)     - Bootstrapping Spring Data repositories in DEFAULT mode.
+03-25@12:55:36 DEBUG (RepositoryConfigurationDelegate.java:138)     - Scanning for repositories in packages com.example.demo.model.persistence.repositories.
+03-25@12:55:36 INFO  (RepositoryConfigurationDelegate.java:182)     - Finished Spring Data repository scanning in 60ms. Found 4 repository interfaces.
+03-25@12:55:37 INFO  (DirectJDKLog.java:173)     - Initializing ProtocolHandler ["http-nio-8080"]
+03-25@12:55:37 INFO  (DirectJDKLog.java:173)     - Starting service [Tomcat]
+03-25@12:55:37 INFO  (DirectJDKLog.java:173)     - Starting Servlet engine: [Apache Tomcat/9.0.19]
+03-25@12:55:37 INFO  (DirectJDKLog.java:173)     - Initializing Spring embedded WebApplicationContext
+03-25@12:55:37 DEBUG (HikariConfig.java:480)     - Driver class org.h2.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+03-25@12:55:37 DEBUG (HikariConfig.java:1020)     - HikariPool-1 - configuration:
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - allowPoolSuspension.............false
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - autoCommit......................true
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - catalog.........................none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - connectionInitSql...............none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - connectionTestQuery.............none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - connectionTimeout...............30000
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - dataSource......................none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - dataSourceClassName.............none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - dataSourceJNDI..................none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - dataSourceProperties............{password=<masked>}
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - driverClassName................."org.h2.Driver"
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - healthCheckProperties...........{}
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - healthCheckRegistry.............none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - idleTimeout.....................600000
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - initializationFailTimeout.......1
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - isolateInternalQueries..........false
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - jdbcUrl.........................jdbc:h2:mem:bootapp;DB_CLOSE_DELAY=-1
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - leakDetectionThreshold..........0
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - maxLifetime.....................1800000
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - maximumPoolSize.................10
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - metricRegistry..................none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - metricsTrackerFactory...........none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - minimumIdle.....................10
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - password........................<masked>
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - poolName........................"HikariPool-1"
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - readOnly........................false
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - registerMbeans..................false
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - scheduledExecutor...............none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - schema..........................none
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - threadFactory...................internal
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - transactionIsolation............default
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - username........................"sa"
+03-25@12:55:37 DEBUG (HikariConfig.java:1052)     - validationTimeout...............5000
+03-25@12:55:37 INFO  (HikariDataSource.java:110)     - HikariPool-1 - Starting...
+03-25@12:55:38 DEBUG (HikariPool.java:545)     - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 INFO  (HikariDataSource.java:123)     - HikariPool-1 - Start completed.
+03-25@12:55:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:55:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:55:39 DEBUG (JpaMetamodelMappingContextFactoryBean.java:77)     - Initializing JpaMetamodelMappingContext…
+03-25@12:55:39 DEBUG (JpaMetamodelMappingContextFactoryBean.java:84)     - Finished initializing JpaMetamodelMappingContext!
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.UserRepository…
+03-25@12:55:39 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByUsername
+03-25@12:55:39 DEBUG (NamedQuery.java:138)     - Looking up named query ApplicationUser.findByUsername
+03-25@12:55:39 DEBUG (NamedQuery.java:119)     - Did not find named query ApplicationUser.findByUsername
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.UserRepository.
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.CartRepository…
+03-25@12:55:39 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByApplicationUser
+03-25@12:55:39 DEBUG (NamedQuery.java:138)     - Looking up named query Cart.findByApplicationUser
+03-25@12:55:39 DEBUG (NamedQuery.java:119)     - Did not find named query Cart.findByApplicationUser
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.CartRepository.
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.ItemRepository…
+03-25@12:55:39 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByName
+03-25@12:55:39 DEBUG (NamedQuery.java:138)     - Looking up named query Item.findByName
+03-25@12:55:39 DEBUG (NamedQuery.java:119)     - Did not find named query Item.findByName
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.ItemRepository.
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.OrderRepository…
+03-25@12:55:39 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByApplicationUser
+03-25@12:55:39 DEBUG (NamedQuery.java:138)     - Looking up named query UserOrder.findByApplicationUser
+03-25@12:55:39 DEBUG (NamedQuery.java:119)     - Did not find named query UserOrder.findByApplicationUser
+03-25@12:55:39 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.OrderRepository.
+03-25@12:55:40 INFO  (DirectJDKLog.java:173)     - Starting ProtocolHandler ["http-nio-8080"]
+03-25@12:56:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:56:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:56:40 INFO  (DirectJDKLog.java:173)     - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-25@12:56:41 DEBUG (OrderController.java:35)     - Order failed. User not found Kalyani
+03-25@12:56:53 INFO  (UserController.java:57)     - User name set with: Kalyani
+03-25@12:56:53 DEBUG (TransactionalRepositoryProxyPostProcessor.java:355)     - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+03-25@12:56:53 DEBUG (TransactionalRepositoryProxyPostProcessor.java:355)     - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+03-25@12:56:53 INFO  (UserController.java:68)     - Create user successful.
+03-25@12:56:58 DEBUG (TransactionalRepositoryProxyPostProcessor.java:355)     - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+03-25@12:56:58 DEBUG (PoolBase.java:236)     - HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:57:02 DEBUG (TransactionalRepositoryProxyPostProcessor.java:355)     - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+03-25@12:57:02 DEBUG (PoolBase.java:236)     - HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:bootapp user=SA
+03-25@12:57:08 DEBUG (TransactionalRepositoryProxyPostProcessor.java:355)     - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+03-25@12:57:08 INFO  (OrderController.java:40)     - Order successful.
+03-25@12:57:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:57:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:58:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:58:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:59:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@12:59:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:00:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:00:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:01:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:01:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:02:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:02:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:03:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:03:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:04:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:04:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:05:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:05:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:06:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:06:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:07:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:07:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:08:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:08:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:09:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:09:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:10:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:10:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:11:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:11:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:12:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:12:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:13:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:13:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:14:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:14:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:14:59 INFO  (UserController.java:57)     - User name set with: sona
+03-25@13:14:59 INFO  (UserController.java:68)     - Create user successful.
+03-25@13:15:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:15:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:16:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:16:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@13:17:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:35:34 WARN  (HikariPool.java:766)     - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h18m26s238ms991µs700ns).
+03-25@15:35:34 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn10: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn11: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn12: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn13: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn14: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn15: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn16: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn17: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn18: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:35:34 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn19: url=jdbc:h2:mem:bootapp user=SA
+03-25@15:36:04 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:36:34 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:37:04 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:37:34 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:38:04 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:38:34 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@15:39:04 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:22:37 WARN  (HikariPool.java:766)     - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h43m41s33ms443µs).
+03-25@17:22:37 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn18: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn17: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn16: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn20: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn11: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn19: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn21: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn14: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn12: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn22: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn13: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn15: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn23: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn10: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn24: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn25: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn26: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn27: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn28: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:22:37 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn29: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:23:07 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:23:37 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:24:07 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:24:37 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:25:07 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:25:37 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:26:07 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:26:37 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:28:06 WARN  (HikariPool.java:766)     - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m29s422ms557µs300ns).
+03-25@17:28:06 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:28:36 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:29:06 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:29:36 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:30:06 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:30:36 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:31:06 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:31:36 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:32:06 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:32:36 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:42:13 WARN  (HikariPool.java:766)     - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m37s209ms20µs).
+03-25@17:42:13 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:42:43 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:43:14 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:43:44 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:44:14 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:44:44 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:45:14 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:45:44 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:46:14 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:46:44 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:47:14 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:47:44 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:48:14 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:48:44 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:51:10 WARN  (HikariPool.java:766)     - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m26s245ms171µs300ns).
+03-25@17:51:10 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:51:40 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:51:54 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn24: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:51:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn30: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:06 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn27: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:06 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn31: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:10 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:52:13 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn20: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:13 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn32: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:16 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn22: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:16 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn33: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:16 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn23: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:16 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn34: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:18 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn21: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:18 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn35: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:18 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn26: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:18 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn36: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:20 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn28: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:20 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn37: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:29 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn29: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:29 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn38: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:32 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn25: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@17:52:32 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn39: url=jdbc:h2:mem:bootapp user=SA
+03-25@17:52:40 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:53:10 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:53:40 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:54:10 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:54:40 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:55:10 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:55:40 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:56:10 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:56:40 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@17:57:10 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:03:08 WARN  (HikariPool.java:766)     - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m58s287ms62µs200ns).
+03-25@18:03:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:03:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:04:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:04:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:05:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:05:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:06:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:06:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:07:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:07:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:08:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:08:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:09:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:09:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:10:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:10:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:11:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:11:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:12:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:12:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:13:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:13:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:14:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:14:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:15:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:15:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:16:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:16:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:17:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:17:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:18:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:18:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:19:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:19:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:20:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:20:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:21:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:21:11 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn30: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:21:11 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn40: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:21:32 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn32: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:21:32 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn41: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:21:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:21:45 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn34: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:21:45 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn42: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:21:47 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn36: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:21:47 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn43: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:21:47 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn31: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:21:47 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn44: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:21:50 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn37: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:21:50 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn45: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:22:03 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn33: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:22:03 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn46: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:22:07 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn38: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:22:07 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn47: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:22:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:22:16 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn35: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:22:16 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn48: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:22:24 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn39: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:22:24 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn49: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:22:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:23:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:23:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:24:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:24:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:25:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:25:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:26:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:26:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:27:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:27:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:28:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:28:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:29:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:29:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:30:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:30:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:31:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:31:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:32:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:32:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:33:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:33:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:34:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:34:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:35:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:35:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:36:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:36:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:37:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:37:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:38:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:38:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:39:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:39:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:40:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:40:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:41:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:41:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:42:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:42:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:43:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:43:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:44:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:44:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:45:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:45:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:46:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:46:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:47:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:47:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:48:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:48:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:49:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:49:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:50:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:50:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:50:42 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn40: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:50:42 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn50: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:01 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn42: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:01 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn51: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:07 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn43: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:07 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn52: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:51:14 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn45: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:14 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn53: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:21 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn44: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:21 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn54: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:22 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn47: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:22 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn55: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:29 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn41: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:29 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn56: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:51:47 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn48: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:47 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn57: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:51:55 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn46: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:51:55 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn58: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:52:00 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn49: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@18:52:00 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn59: url=jdbc:h2:mem:bootapp user=SA
+03-25@18:52:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:52:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:53:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:53:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:54:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:54:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:55:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:55:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:56:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:56:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:57:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:57:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:58:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:58:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:59:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@18:59:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:00:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:00:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:01:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:01:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:02:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:02:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:03:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:03:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:04:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:04:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:05:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:05:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:06:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:06:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:07:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:07:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:08:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:08:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:09:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:09:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:10:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:10:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:11:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:11:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:12:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:12:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:13:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:13:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:14:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:14:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:15:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:15:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:16:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:16:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:17:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:17:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:18:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:18:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:19:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:19:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:20:00 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn50: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:20:00 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn60: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:20:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:20:24 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn51: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:20:24 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn61: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:20:26 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn52: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:20:26 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn62: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:20:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:21:03 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn54: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:21:03 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn63: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:21:04 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn56: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:21:04 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn64: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:21:04 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn55: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:21:04 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn65: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:21:06 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn53: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:21:06 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn66: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:21:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:21:19 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn59: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:21:19 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn67: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:21:20 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn58: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:21:20 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn68: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:21:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:21:43 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn57: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:21:43 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn69: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:22:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:22:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:23:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:23:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:24:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:24:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:25:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:25:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:26:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:26:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:27:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:27:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:28:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:28:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:29:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:29:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:30:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:30:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:31:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:31:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:32:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:32:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:33:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:33:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:34:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:34:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:35:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:35:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:36:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:36:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:37:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:37:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:38:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:38:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:39:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:39:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:40:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:40:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:41:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:41:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:42:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:42:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:43:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:43:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:44:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:44:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:45:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:45:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:46:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:46:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:47:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:47:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:48:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:48:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:49:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:49:25 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn60: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:49:25 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn70: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:49:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:50:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:50:09 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn62: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:50:09 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn71: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:50:15 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn61: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:50:15 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn72: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:50:21 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn63: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:50:21 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn73: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:50:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:50:52 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn64: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:50:52 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn74: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:50:56 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn66: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:50:56 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn75: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:51:02 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn65: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:51:02 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn76: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:51:07 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn68: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:51:07 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn77: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:51:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:51:10 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn69: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:51:10 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn78: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:51:18 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn67: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@19:51:18 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn79: url=jdbc:h2:mem:bootapp user=SA
+03-25@19:51:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:52:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:52:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:53:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:53:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:54:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:54:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:55:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:55:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:56:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:56:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:57:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:57:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:58:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:58:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:59:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@19:59:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:00:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:00:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:01:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:01:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:02:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:02:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:02:44 INFO  (DirectJDKLog.java:175)     - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+03-25@20:03:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:03:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:04:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:04:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:05:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:05:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:06:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:06:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:07:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:07:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:08:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:08:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:09:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:09:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:10:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:10:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:11:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:11:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:12:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:12:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:13:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:13:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:14:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:14:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:15:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:15:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:16:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:16:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:17:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:17:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:18:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:18:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:19:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:19:24 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn70: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:19:24 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn80: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:19:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:19:53 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn71: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:19:53 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn81: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:20:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:20:12 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn73: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:20:12 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn82: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:20:12 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn72: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:20:12 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn83: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:20:20 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn75: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:20:20 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn84: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:20:21 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn74: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:20:21 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn85: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:20:29 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn77: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:20:29 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn86: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:20:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:20:52 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn76: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:20:52 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn87: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:20:54 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn78: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:20:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn88: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:21:00 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn79: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@20:21:00 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn89: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:21:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:21:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:22:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:22:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:23:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:23:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:24:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:24:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:25:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:25:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:26:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:26:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:27:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:27:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:28:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:28:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:29:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:29:38 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:30:08 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:30:50 INFO  (RepositoryConfigurationDelegate.java:126)     - Bootstrapping Spring Data repositories in DEFAULT mode.
+03-25@20:30:50 DEBUG (RepositoryConfigurationDelegate.java:138)     - Scanning for repositories in packages com.example.demo.model.persistence.repositories.
+03-25@20:30:50 INFO  (RepositoryConfigurationDelegate.java:182)     - Finished Spring Data repository scanning in 180ms. Found 4 repository interfaces.
+03-25@20:30:52 INFO  (DirectJDKLog.java:173)     - Initializing ProtocolHandler ["http-nio-8080"]
+03-25@20:30:52 INFO  (DirectJDKLog.java:173)     - Starting service [Tomcat]
+03-25@20:30:52 INFO  (DirectJDKLog.java:173)     - Starting Servlet engine: [Apache Tomcat/9.0.19]
+03-25@20:30:53 INFO  (DirectJDKLog.java:173)     - Initializing Spring embedded WebApplicationContext
+03-25@20:30:53 DEBUG (HikariConfig.java:480)     - Driver class org.h2.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+03-25@20:30:53 DEBUG (HikariConfig.java:1020)     - HikariPool-1 - configuration:
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - allowPoolSuspension.............false
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - autoCommit......................true
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - catalog.........................none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - connectionInitSql...............none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - connectionTestQuery.............none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - connectionTimeout...............30000
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - dataSource......................none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - dataSourceClassName.............none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - dataSourceJNDI..................none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - dataSourceProperties............{password=<masked>}
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - driverClassName................."org.h2.Driver"
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - healthCheckProperties...........{}
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - healthCheckRegistry.............none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - idleTimeout.....................600000
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - initializationFailTimeout.......1
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - isolateInternalQueries..........false
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - jdbcUrl.........................jdbc:h2:mem:bootapp;DB_CLOSE_DELAY=-1
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - leakDetectionThreshold..........0
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - maxLifetime.....................1800000
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - maximumPoolSize.................10
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - metricRegistry..................none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - metricsTrackerFactory...........none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - minimumIdle.....................10
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - password........................<masked>
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - poolName........................"HikariPool-1"
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - readOnly........................false
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - registerMbeans..................false
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - scheduledExecutor...............none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - schema..........................none
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - threadFactory...................internal
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - transactionIsolation............default
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - username........................"sa"
+03-25@20:30:53 DEBUG (HikariConfig.java:1052)     - validationTimeout...............5000
+03-25@20:30:53 INFO  (HikariDataSource.java:110)     - HikariPool-1 - Starting...
+03-25@20:30:54 DEBUG (HikariPool.java:545)     - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 INFO  (HikariDataSource.java:123)     - HikariPool-1 - Start completed.
+03-25@20:30:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:bootapp user=SA
+03-25@20:30:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:30:58 DEBUG (JpaMetamodelMappingContextFactoryBean.java:77)     - Initializing JpaMetamodelMappingContext…
+03-25@20:30:58 DEBUG (JpaMetamodelMappingContextFactoryBean.java:84)     - Finished initializing JpaMetamodelMappingContext!
+03-25@20:30:59 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.UserRepository…
+03-25@20:30:59 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByUsername
+03-25@20:30:59 DEBUG (NamedQuery.java:138)     - Looking up named query ApplicationUser.findByUsername
+03-25@20:30:59 DEBUG (NamedQuery.java:119)     - Did not find named query ApplicationUser.findByUsername
+03-25@20:31:00 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.UserRepository.
+03-25@20:31:00 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.CartRepository…
+03-25@20:31:00 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByApplicationUser
+03-25@20:31:00 DEBUG (NamedQuery.java:138)     - Looking up named query Cart.findByApplicationUser
+03-25@20:31:00 DEBUG (NamedQuery.java:119)     - Did not find named query Cart.findByApplicationUser
+03-25@20:31:00 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.CartRepository.
+03-25@20:31:00 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.ItemRepository…
+03-25@20:31:00 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByName
+03-25@20:31:00 DEBUG (NamedQuery.java:138)     - Looking up named query Item.findByName
+03-25@20:31:00 DEBUG (NamedQuery.java:119)     - Did not find named query Item.findByName
+03-25@20:31:00 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.ItemRepository.
+03-25@20:31:00 DEBUG (RepositoryFactorySupport.java:293)     - Initializing repository instance for com.example.demo.model.persistence.repositories.OrderRepository…
+03-25@20:31:00 DEBUG (JpaQueryFactory.java:55)     - Looking up query for method findByApplicationUser
+03-25@20:31:00 DEBUG (NamedQuery.java:138)     - Looking up named query UserOrder.findByApplicationUser
+03-25@20:31:00 DEBUG (NamedQuery.java:119)     - Did not find named query UserOrder.findByApplicationUser
+03-25@20:31:00 DEBUG (RepositoryFactorySupport.java:332)     - Finished creation of repository instance for com.example.demo.model.persistence.repositories.OrderRepository.
+03-25@20:31:01 INFO  (DirectJDKLog.java:173)     - Starting ProtocolHandler ["http-nio-8080"]
+03-25@20:31:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:31:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:32:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:32:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:33:09 INFO  (DirectJDKLog.java:173)     - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-25@20:33:09 INFO  (UserController.java:57)     - User name set with: sona
+03-25@20:33:09 DEBUG (TransactionalRepositoryProxyPostProcessor.java:355)     - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+03-25@20:33:09 DEBUG (TransactionalRepositoryProxyPostProcessor.java:355)     - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+03-25@20:33:09 INFO  (UserController.java:68)     - Create user successful.
+03-25@20:33:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:33:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:34:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:34:26 INFO  (UserController.java:57)     - User name set with: sona
+03-25@20:34:26 ERROR (DirectJDKLog.java:175)     - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:457)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:220)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:196)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:546)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:180)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3077)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3667)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:332)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:196)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:127)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:800)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:785)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy109.persist(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy109.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:496)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy111.save(Unknown Source)
+	at com.example.demo.controllers.UserController.createUser(UserController.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.example.demo.security.JWTAuthenticationVerificationFilter.doFilterInternal(JWTAuthenticationVerificationFilter.java:34)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+03-25@20:34:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:35:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:35:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:36:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:36:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:37:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:37:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:38:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:38:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:39:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:39:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:40:07 INFO  (UserController.java:57)     - User name set with: chia
+03-25@20:40:08 INFO  (UserController.java:68)     - Create user successful.
+03-25@20:40:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:40:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:40:56 INFO  (UserController.java:57)     - User name set with: kalyani
+03-25@20:40:57 INFO  (UserController.java:68)     - Create user successful.
+03-25@20:41:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:41:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:42:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:42:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:43:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:43:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:44:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:44:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:45:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:45:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:46:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:46:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:47:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:47:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:48:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:48:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:49:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:49:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:50:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:50:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:51:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:51:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:52:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:52:33 INFO  (UserController.java:57)     - User name set with: chika
+03-25@20:52:34 INFO  (UserController.java:68)     - Create user successful.
+03-25@20:52:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:53:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:53:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:54:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:54:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:55:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:55:30 INFO  (UserController.java:57)     - User name set with: ritu
+03-25@20:55:31 INFO  (UserController.java:68)     - Create user successful.
+03-25@20:55:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:56:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:56:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:57:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:57:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:58:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:58:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:59:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@20:59:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@21:00:20 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:20 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn10: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@21:00:31 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:31 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn11: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:32 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:32 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn12: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:38 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:38 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn13: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:40 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:40 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn14: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:45 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:45 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn15: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:45 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:45 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn16: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:48 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:48 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn17: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:50 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:50 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn18: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:53 DEBUG (PoolBase.java:129)     - HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:bootapp user=SA: (connection has passed maxLifetime)
+03-25@21:00:53 DEBUG (HikariPool.java:709)     - HikariPool-1 - Added connection conn19: url=jdbc:h2:mem:bootapp user=SA
+03-25@21:00:54 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+03-25@21:01:24 DEBUG (HikariPool.java:411)     - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
